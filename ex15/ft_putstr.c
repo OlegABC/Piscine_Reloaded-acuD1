@@ -1,20 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/02 21:15:52 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/09 18:48:31 by arsciand         ###   ########.fr       */
+/*   Created: 2018/10/04 17:15:16 by arsciand          #+#    #+#             */
+/*   Updated: 2018/10/04 20:00:56 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b)
-{
-	int tmp;
+void	ft_putchar(char c);
 
-	tmp = *a;
-	*b = *a;
-	*b = tmp;
+void	ft_putstr(char *str)
+{
+	if (*str)
+	{
+		ft_putchar(*str++);
+		ft_putstr(str);
+	}
 }
+
