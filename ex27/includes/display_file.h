@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/10 17:19:11 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/10 18:17:43 by arsciand         ###   ########.fr       */
+/*   Updated: 2018/10/10 20:49:22 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,7 @@
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <fcntl.h>
+
+# define BUFF_SIZE 4094
 
 #endif
