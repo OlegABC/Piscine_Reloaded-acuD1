@@ -3,8 +3,8 @@ NAME = ft_display_file
 SRCS_PATH = ./srcs/
 H_PATH = ./includes/
 
-SRC += $(SRCS_PATH)ft_display_file.c
-OBJ += ft_display_file.o
+SRC += $(SRCS_PATH)display_file.c
+OBJ += display_file.o
 H += -I $(H_PATH)
 
 CC = gcc
