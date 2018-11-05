@@ -5,18 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/08 20:16:44 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/09 18:12:05 by arsciand         ###   ########.fr       */
+/*   Created: 2018/11/05 19:24:27 by arsciand          #+#    #+#             */
+/*   Updated: 2018/11/05 19:25:36 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_POINT_H
 # define FT_POINT_H
 
-typedef struct  s_point
+typedef struct	s_point
 {
-    int x;
-    int y;
-}               t_point;
+	int x;
+	int y;
+}				t_point;
 
 #endif

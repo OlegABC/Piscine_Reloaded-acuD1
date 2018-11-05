@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/04 17:15:16 by arsciand          #+#    #+#             */
-/*   Updated: 2018/11/05 17:35:07 by arsciand         ###   ########.fr       */
+/*   Updated: 2018/11/05 19:22:25 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,4 +20,3 @@ void	ft_putstr(char *str)
 		ft_putstr(str);
 	}
 }
-
