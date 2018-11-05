@@ -5,21 +5,21 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/09 18:17:29 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/09 18:22:14 by arsciand         ###   ########.fr       */
+/*   Created: 2018/11/05 18:50:48 by arsciand          #+#    #+#             */
+/*   Updated: 2018/11/05 18:52:01 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_count_if(char **tab, int (*f)(char*))
+int		ft_count_if(char **tab, int (*f)(char*))
 {
-    int i;
+	int i;
 
-    i = 0;
-    while (*tab)
-    {
-        if (f(*tab) == 1)
-            i++;
-        tab++;
-    }
-    return (i);
+	i = 0;
+	while (*tab)
+	{
+		if (f(*tab) == 1)
+			i++;
+		tab++;
+	}
+	return (i);
 }

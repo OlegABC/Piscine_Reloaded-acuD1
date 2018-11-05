@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/04 18:23:31 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/04 19:31:51 by arsciand         ###   ########.fr       */
+/*   Created: 2018/11/05 17:37:03 by arsciand          #+#    #+#             */
+/*   Updated: 2018/11/05 17:37:54 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
-    return (*str ? ft_strlen(++str) + 1 : 0);
+	return (*str ? ft_strlen(++str) + 1 : 0);
 }

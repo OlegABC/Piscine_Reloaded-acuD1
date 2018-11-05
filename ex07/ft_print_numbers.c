@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/02 19:49:32 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/02 21:01:32 by arsciand         ###   ########.fr       */
+/*   Created: 2018/11/05 16:39:11 by arsciand          #+#    #+#             */
+/*   Updated: 2018/11/05 17:32:24 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,4 +20,3 @@ void	ft_print_numbers(void)
 	while (i <= '9')
 		ft_putchar(i++);
 }
-
