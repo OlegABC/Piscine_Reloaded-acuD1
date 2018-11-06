@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/08 19:05:16 by arsciand          #+#    #+#             */
-/*   Updated: 2018/11/05 16:30:27 by arsciand         ###   ########.fr       */
+/*   Updated: 2018/11/06 09:24:38 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,9 @@ int		*ft_range(int min, int max)
 	int i;
 
 	i = 0;
-	if (!(tab = malloc(sizeof(int) * (max - min))) || min >= max)
+	if (min >= max)
+		return (0);
+	if (!(tab = malloc(sizeof(int) * (max - min))))
 		return (NULL);
 	while (min < max)
 	{

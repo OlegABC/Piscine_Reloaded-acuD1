@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/02 21:15:52 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/09 18:48:31 by arsciand         ###   ########.fr       */
+/*   Updated: 2018/11/06 09:19:52 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@ void	ft_swap(int *a, int *b)
 	int tmp;
 
 	tmp = *a;
-	*b = *a;
+	*a = *b;
 	*b = tmp;
 }

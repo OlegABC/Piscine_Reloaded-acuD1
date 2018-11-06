@@ -40,4 +40,4 @@ fclean:
 	@/bin/rm -rf $(OBJ) $(NAME)
 	$(FCLSUCCES)
 
-re: fclean norme all clean
+re: fclean all clean

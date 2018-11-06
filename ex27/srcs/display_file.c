@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/05 18:53:28 by arsciand          #+#    #+#             */
-/*   Updated: 2018/11/05 19:28:06 by arsciand         ###   ########.fr       */
+/*   Updated: 2018/11/06 10:05:44 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int		main(int ac, char **av)
 {
 	if (ac < 2)
 		ft_putstr("File name missing.\n");
-	else if (ac < 2)
+	else if (ac > 2)
 		ft_putstr("Too many arguments.\n");
 	else
 		do_read(av[1]);
