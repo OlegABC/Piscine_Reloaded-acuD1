@@ -1,2 +1,2 @@
-Piscine_Reloaded project.
+Piscine_Reloaded project
 arsciand @ 42.
