@@ -1,1 +1,1 @@
-# Piscine_Reloaded project - arsciand @ 42.
+# Piscine_Reloaded project - arsciand @ 42
