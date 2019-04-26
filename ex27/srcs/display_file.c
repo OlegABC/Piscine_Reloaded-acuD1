@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/05 18:53:28 by arsciand          #+#    #+#             */
-/*   Updated: 2019/04/24 15:07:42 by arsciand         ###   ########.fr       */
+/*   Updated: 2019/04/26 08:35:21 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	do_read(char *av)
 	clear_buff(buff, BUFF_SIZE);
 	if (fd == -1)
 		return ;
-	while ((ret = read(fd, buff, sizeof(buff) - 1)))
+	while ((ret = read(fd, buff, sizeof(buff) - 1)) && sizeof(buff) <= BUFF_SIZE)
 	{
 		buff[ret] = '\0';
 		ft_putstr(buff);
